@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomList {
+    // Setting up the repo
     private List<City> cities;
-
     public CustomList() {
         this.cities = new ArrayList<>();
     }
@@ -13,9 +13,4 @@ public class CustomList {
     public void addCity(City city) {
         cities.add(city);
     }
-
-    
-
-    // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
 }
